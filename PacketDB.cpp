@@ -1305,6 +1305,12 @@ void initializeDB() {
 	// Packet: 0x020e
 	packet_db[0x020e].len = 32;
 
+	// Packet: 0x020f
+	packet_db[0x020f].len = 10;
+
+	// Packet: 0x0210
+	packet_db[0x0210].len = 22;
+
 	// Packet: 0x0212
 	packet_db[0x0212].len = 26;
 
